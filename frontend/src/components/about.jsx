@@ -11,11 +11,9 @@ const About = () => {
         <img src={AboutBackground} alt="" />
       </div> */}
       <div style={{gap:"20px",display:"flex",alignItems:"center",justifyContent:'center'}} className="about-section-image-container">
-<<<<<<< HEAD
         <img style={{width:"600px",height:"600px",borderRadius:"5px"}}src="\public\images\undraw_Personal_website_re_c8dv.png.jpeg" alt="" />
-=======
-        <img style={{width:"600px",height:"600px",borderRadius:"5px"}}src="\public\images\undraw_Personal_website_re_c8dv.png" alt="" />
->>>>>>> 6edb6dc807f9f7bf3c35853d3536c5d3a897305f
+
+
       </div>
       <div style={{width:"100%"}} className="about-section-text-container">
         <p className="primary-subheading">About</p>
@@ -31,11 +29,10 @@ const About = () => {
         <div className="about-buttons-container">
           <button className="secondary-button">Learn More</button>
           <button className="watch-video-button">
-<<<<<<< HEAD
+
             <BsFillPlayCircleFill /><Link style={{textDecoration:"none"}} to="https://youtu.be/UBhiwkM8MIY?si=tW1EL_FYA8z9NC3S">Watch Video</Link>
-=======
-            <BsFillPlayCircleFill /><Link style={{textDecoration:"none"}} to="https://youtu.be/UBhiwkM8MIY?si=tW1EL_FYA8z9NC3S">Watch Video</Link> 
->>>>>>> 6edb6dc807f9f7bf3c35853d3536c5d3a897305f
+
+
           </button>
         </div>
       </div>

@@ -7,29 +7,24 @@ import "./homepage.css"
 const Work = () => {
   const workInfoData = [
     {
-<<<<<<< HEAD
+
       image: "/public/images/undraw_farm_girl_dnpe.png.jpeg",
       title: "Proper Menstrual Product Usage",
       text: "It's important to choose products that provide adequate absorption for your flow and change them regularly to prevent leaks and discomfort.",
     },
-    {image: "/public/images/undraw_Meditation_re_gll0.png.jpeg",
-=======
-      image: "/public/images/undraw_farm_girl_dnpe.png",
-      title: "Proper Menstrual Product Usage",
-      text: "It's important to choose products that provide adequate absorption for your flow and change them regularly to prevent leaks and discomfort.",
-    },
+  
     {
-      image: "/public/images/undraw_Meditation_re_gll0.png",
->>>>>>> 6edb6dc807f9f7bf3c35853d3536c5d3a897305f
+      image: "/public/images/undraw_Meditation_re_gll0.png.jpeg",
+
       title: "Hygienic Handling and Disposal",
       text: "Menstrual products should be handled and disposed of hygienically to avoid contamination and the spread of infections. Hands should be washed before and after changing products.",
     },
     {
-<<<<<<< HEAD
+
       image: "/public/images/undraw_Personal_website_re_c8dv.png.jpeg",
-=======
-      image: "/public/images/undraw_Personal_trainer_re_cnua.png",
->>>>>>> 6edb6dc807f9f7bf3c35853d3536c5d3a897305f
+
+      
+
       title: "Maintaining Personal Cleanliness",
       text: "Keeping the genital area clean during menstruation is crucial. Regularly washing the vulva with mild, unscented soap and water helps prevent odor and infections",
     },

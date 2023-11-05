@@ -33,11 +33,7 @@ const Home = () => {
           </button>
         </div>
         <div className="home-image-section">
-<<<<<<< HEAD
-          <img  style={{borderRadius:"5px" ,marginLeft:"-200px",width:"800px", height:"600px"}} src="/public/images/undraw_happy_women_day_fbjt.png.jpeg" alt="" />
-=======
-          <img  style={{borderRadius:"5px" ,marginLeft:"-200px",width:"800px", height:"600px"}} src="public\images\undraw_happy_women_day_fbjt.png" alt="" />
->>>>>>> 6edb6dc807f9f7bf3c35853d3536c5d3a897305f
+        <img  style={{borderRadius:"5px" ,marginLeft:"-200px",width:"800px", height:"600px"}} src="public\images\undraw_happy_women_day_fbjt.png" alt="" />
         </div>
       </div>
         <Work/>
