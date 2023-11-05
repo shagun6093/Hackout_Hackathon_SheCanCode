@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&family=Roboto+Condensed:wght@300;400&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins' ,sans-serif;
+}
+
+:root{
+  --primary-color:#EC628B;
+  --secondary-color:#458C8A;
+  --accent-color:#4E5B73;
+  --accent-color-dark:hsl(189, 70%, 47%);
+  --voilet-color:#933B73;
+  --background-base-color:#F7B8C5;
+  --background-color:#F6DADC;
+  --background-white:white;
+}
+
+.navbar{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    /* margin-top: 10px; */
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16);
+    justify-content: space-between;
+    
+  }
+
+
+.logo img{
+  width: 200px;
+  height: 80px;
+  margin-left: 30px;
+  /* margin-top: -5px; */
+}
+
+.nav-list ul{
+  display: flex;
+  gap: 40px;
+  margin-top: 15px;
+  align-items: center;
+  justify-content: center;
+  padding-right: 30px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.nav-list li{
+  list-style-type: none;
+  font-family: sans-serif 'Poppins';
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  font-weight: bold;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.nav-list .link{
+  text-decoration: none;
+  color: black;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.nav-list .link:hover{
+  background-color: var(--primary-color);
+  color: white;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: 0.3s ease-in;
+}
+
+
+.nav-list .btn{
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  width: 100px;
+  height: 40px;
+  font-size: 15px;
+  background-color:var(--background-base-color);
+  border: none;
+  border-radius: 10px;
+}
+
+.nav-list .dropdown {
+  position: relative;
+}
+
+.nav-list .dropdown-content {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  display: none;
+  background-color: #f2f2f2;
+  min-width: 150px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.nav-list .dropdown:hover .dropdown-content {
+  display: block;
+}
+.nav-container{
+  background-color: var(--background-color);
+  
+}
+.nav-list .dropdown-content a {
+  display: block;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: black;
+  transition: background-color 0.3s;
+}
+
+.nav-list .dropdown-content a:hover {
+  background-color: var(--primary-color);
+  color: white;
+}
+Link{
+  color:"white" ;
+  text-decoration:"none";
+  background-color: var(--background-base-color);
+
+}
+.dropdown-content{
+  border: solid 1px var(--voilet-color);
+  border-radius: 5px;
+  font-size: 15px;
+  background-color: var(--background-base-color);
+}

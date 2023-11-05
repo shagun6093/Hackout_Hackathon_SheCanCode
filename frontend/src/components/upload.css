@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins&display=swap');
+
+
+:root{
+    --primary-color:#EC628B;
+    --secondary-color:#458C8A;
+    --accent-color:#4E5B73;
+    --accent-color-dark:hsl(189, 70%, 47%);
+    --voilet-color:#933B73;
+    --background-base-color:#F7B8C5;
+    --background-color:#F6DADC;
+    --background-white:white;
+}
+
+
+
+
+#output{
+    border: var(--accent-color);
+    border-radius: 5px;
+}
